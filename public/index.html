@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scraping Tool</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <h1>Scraping Tool</h1>
+    <form id="scrapeForm">
+      <label for="categoriaSelector">Categoría Selector:</label>
+      <input
+        type="text"
+        id="categoriaSelector"
+        name="categoriaSelector"
+        required
+      /><br /><br />
+
+      <label for="subcategoriaSelector">Subcategoría Selector:</label>
+      <input
+        type="text"
+        id="subcategoriaSelector"
+        name="subcategoriaSelector"
+        required
+      /><br /><br />
+
+      <label for="nombreArchivo">Nombre del Archivo:</label>
+      <input
+        type="text"
+        id="nombreArchivo"
+        name="nombreArchivo"
+        required
+      /><br /><br />
+
+      <button type="submit">Iniciar Scraping</button>
+    </form>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
